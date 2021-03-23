@@ -24,14 +24,14 @@ NOTE: block number will start from 1 to the nax number configured
 +5v and gnd from arduino to the breadboard +ve and -ve common lines 
 then supply the smae from breadboard of block 2 and block 3 till block N breadboard common +ve and -ve lines 
 
-pin 13 to the out pin of Sensor start of the block1
-pin 12 to the out pin of Sensor end of the block1
+pin 13 to the out pin of Sensor start of the crossing1
+pin 12 to the out pin of Sensor end of the crossing1
 
-pin 11 to the out pin of Sensor start of the block2
-pin 10 to the out pin of Sensor end of the block2
+pin 11 to the out pin of Sensor start of the crossing2
+pin 10 to the out pin of Sensor end of the crossing2
 
-pin 9 to the out pin of Sensor start of the block3
-pin 8 to the out pin of Sensor end of the block3
+pin 9 to the out pin of Sensor start of the crossing3
+pin 8 to the out pin of Sensor end of the crossing3
 
 repeate the same till the blockN 
 
