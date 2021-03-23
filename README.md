@@ -9,10 +9,10 @@
 IrSensor-Railroad-Corssing-Lib is for supporing multiple Ir-Sensor bases railway crossing together 
 in chain with less complexcity of the programming 
 
-max we can connect any number of block till the arduino has input pins 2 pins per block 
-this api support a simple interface where we can controll 1-N blocks for their occupancy and unoccupancy 
+max we can connect any number of crossing till the arduino has input pins 2 pins per crossing 
+this api support a simple interface where we can controll 1-N crossing for their occupancy and unoccupancy 
 
-NOTE: block number will start from 1 to the nax number configured 
+NOTE: crossing number will start from 1 to the nax number configured 
 
 ```
 
@@ -22,7 +22,7 @@ NOTE: block number will start from 1 to the nax number configured
 ![img](/images/connection.JPG)
 ```
 +5v and gnd from arduino to the breadboard +ve and -ve common lines 
-then supply the smae from breadboard of block 2 and block 3 till block N breadboard common +ve and -ve lines 
+then supply the smae from breadboard of crossing 2 and crossing 3 till crossing N breadboard common +ve and -ve lines 
 
 pin 13 to the out pin of Sensor start of the crossing1
 pin 12 to the out pin of Sensor end of the crossing1
@@ -33,10 +33,10 @@ pin 10 to the out pin of Sensor end of the crossing2
 pin 9 to the out pin of Sensor start of the crossing3
 pin 8 to the out pin of Sensor end of the crossing3
 
-repeate the same till the blockN 
+repeate the same till the crossing N 
 
-connect the jumper from +5v to the vcc of the all the IR sensors of block 1 block 2 and block 3 till block N 
-connect the jumper from gnd to the gnd of the all the IR sensors of block 1 block 2 and block 3 till block N
+connect the jumper from +5v to the vcc of the all the IR sensors of crossing 1 crossing 2 and crossing 3 till crossing N 
+connect the jumper from gnd to the gnd of the all the IR sensors of crossing 1 crossing 2 and crossing 3 till crossing N
 
 ```
 
